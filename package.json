@@ -1,0 +1,31 @@
+{
+  "name": "statsig-cloner",
+  "version": "1.0.0",
+  "description": "clone statsig configs from one project to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clone": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dydxprotocol/statsig-cloner.git"
+  },
+  "keywords": [
+    "statsig",
+    "clone",
+    "cloner",
+    "feature",
+    "flag"
+  ],
+  "author": "yogurtandjam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dydxprotocol/statsig-cloner/issues"
+  },
+  "homepage": "https://github.com/dydxprotocol/statsig-cloner#readme",
+  "dependencies": {
+    "axios": "1.7.3",
+    "dotenv": "^16.4.5"
+  }
+}
